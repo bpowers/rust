@@ -88,7 +88,7 @@ fn build_libbacktrace(target: &str) -> Result<(), ()> {
         .include(&native.out_dir)
         .out_dir(&native.out_dir)
         .warnings(false)
-        .file("../libbacktrace/alloc.c")
+        .file("../libbacktrace/mmap.c")
         .file("../libbacktrace/backtrace.c")
         .file("../libbacktrace/dwarf.c")
         .file("../libbacktrace/fileline.c")
