@@ -706,6 +706,7 @@ supported_targets! {
     ("i686-unknown-linux-gnu", i686_unknown_linux_gnu),
     ("i586-unknown-linux-gnu", i586_unknown_linux_gnu),
     ("m68k-unknown-linux-gnu", m68k_unknown_linux_gnu),
+    ("m68k-apple-macosclassic", m68k_apple_macosclassic),
     ("mips-unknown-linux-gnu", mips_unknown_linux_gnu),
     ("mips64-unknown-linux-gnuabi64", mips64_unknown_linux_gnuabi64),
     ("mips64el-unknown-linux-gnuabi64", mips64el_unknown_linux_gnuabi64),
